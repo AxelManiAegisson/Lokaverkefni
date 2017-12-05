@@ -1,0 +1,92 @@
+body
+{
+	background-image: url("Myndir/league.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+div
+{
+	color: white;
+}
+h1
+{
+	font-size: 40px;
+}
+p
+{
+	font-size: 20px;
+}
+.container
+{
+	max-width: 60em;
+	margin: 0 auto;
+	background-color: rgba(0, 0, 0, 0.9); 
+	border-radius: 25px;
+}
+.navi
+{
+	max-width: 60em;
+	margin: 0 auto;
+}
+.center
+{
+	text-align: center;
+}
+.secpadding
+{
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+.navigation ul {
+  font: bold 18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+.navigation li {
+  display: inline-block;
+}
+.navigation a {
+  border-right: 1px solid rgba(0, 0, 0, .3);
+  color: #fff;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+.navigation a:hover {
+	color: black;
+
+}
+.navigation li:first-child a {
+  border-radius: 4px 0 0 4px;
+}
+.navigation li:last-child a {
+  border-right: 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.heimild ul {
+  font: bold 18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+.heimild li {
+  display: inline-block;
+}
+.heimild a {
+  border-right: 1px solid rgba(0, 0, 0, .3);
+  color: #fff;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+.heimild a:hover {
+	text-decoration: underline;
+
+}
+.heimild li:first-child a {
+  border-radius: 4px 0 0 4px;
+}
+.heimild li:last-child a {
+  border-right: 0;
+  border-radius: 0 4px 4px 0;
+}
